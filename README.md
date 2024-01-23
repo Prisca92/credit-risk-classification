@@ -19,16 +19,28 @@ Using a bulleted list, describe the accuracy score, the precision score, and rec
 
 The results: 
 Machine Learning Model #1:
-Accuracy score = 
+Accuracy score = 0.99
 Precision score = 
+(0)= 1.00
+(1)=0.85
 Recall score =
+(0)= 0.99
+(1)=0.91
 
 Machine Learning Model #2:
-Accuracy score =
-Precision score =
-Recall score =
+Accuracy score = 0.99
+Precision score :
+(0)= 1.00
+(1)=0.84
+Recall score :
+(0)= 0.99
+(1)=0.99
+
 
 Summary: 
+Two models were generated while conducting this analysis to determine which model fit best. Both models displayed an adaquate fit. However, machine learning model 2 performed best as I noticed more imporevement in regards to accuracy and recall.
 
 Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+
+File Location: Assignment can be fount in the credit-risk folder titled :
 
