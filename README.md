@@ -1,23 +1,14 @@
+Credit-Risk Analysis Overview:
+
+The purpose of this analysis is to create an evaluate a model based on loan risk using a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers. I was given the task to first Split the Data into Training and Testing Sets by reading the lending_data.csv data from the Resources folder into a Pandas DataFrame. Then creating labels set (y) from the “loan_status” column, I then created the features (X) DataFrame from the remaining columns.
+
+The following step as to create a Logistic Regression Model with the Original Data. I first needed to fit a logistic regression model by using the training data (X_train and y_train). Then save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model. And finally evaluate the model’s performance by generating a confusion matrix and generate a classification report.
+Financial Information:
 
 
-
-
-Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
-
-1.Write a Credit Risk Analysis Report
-2.Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. 
-
-Report: 
-
-Analysis Overview:
-
-The purpose of this analysis is to create an evaluate a model based on loan risk using a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
-
-
-Structure your report by using the report template that Starter_Code.zip includes, ensuring that it contains the following:
-Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
 The results: 
+
 Machine Learning Model #1:
 Accuracy score = 0.99
 Precision score = 
@@ -40,7 +31,6 @@ Recall score :
 Summary: 
 Two models were generated while conducting this analysis to determine which model fit best. Both models displayed an adaquate fit. However, machine learning model 2 performed best as I noticed more imporevement in regards to accuracy and recall.
 
-Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
-File Location: Assignment can be fount in the credit-risk folder titled :
+File Location: Assignment can be found in the credit-risk folder titled :
 
